@@ -1,0 +1,41 @@
+running egg_info
+writing ../../build/cv_package/cv_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/cv_package/cv_package.egg-info/dependency_links.txt
+writing entry points to ../../build/cv_package/cv_package.egg-info/entry_points.txt
+writing requirements to ../../build/cv_package/cv_package.egg-info/requires.txt
+writing top-level names to ../../build/cv_package/cv_package.egg-info/top_level.txt
+reading manifest file '../../build/cv_package/cv_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/cv_package/cv_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cv_package/hubconf.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+copying cv_package/__init__.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+copying cv_package/val.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+copying cv_package/export.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+copying cv_package/benchmarks.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+copying cv_package/detect.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+copying cv_package/train.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+running install
+running install_lib
+copying /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package/hubconf.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+copying /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package/__init__.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+copying /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package/val.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+copying /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package/export.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+copying /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package/benchmarks.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+copying /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package/detect.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+copying /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build/lib/cv_package/train.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+byte-compiling /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package/hubconf.py to hubconf.cpython-38.pyc
+byte-compiling /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package/val.py to val.cpython-38.pyc
+byte-compiling /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package/export.py to export.cpython-38.pyc
+byte-compiling /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package/benchmarks.py to benchmarks.cpython-38.pyc
+byte-compiling /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package/detect.py to detect.cpython-38.pyc
+byte-compiling /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package/train.py to train.cpython-38.pyc
+running install_data
+copying package.xml -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/share/cv_package
+running install_egg_info
+removing '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/cv_package/cv_package.egg-info to /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package-0.0.0-py3.8.egg-info
+running install_scripts
+Installing vision script to /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/cv_package
+writing list of installed files to '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/install.log'
