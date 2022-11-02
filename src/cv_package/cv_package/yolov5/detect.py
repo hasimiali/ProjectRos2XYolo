@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+
 """
 Run YOLOv5 detection inference on images, videos, directories, globs, YouTube, webcam, streams, etc.
-
 Usage - sources:
     $ python detect.py --weights yolov5s.pt --source 0                               # webcam
                                                      img.jpg                         # image
@@ -11,7 +11,6 @@ Usage - sources:
                                                      'path/*.jpg'                    # glob
                                                      'https://youtu.be/Zgi9g1ksQHc'  # YouTube
                                                      'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
-
 Usage - formats:
     $ python detect.py --weights yolov5s.pt                 # PyTorch
                                  yolov5s.torchscript        # TorchScript
@@ -30,18 +29,12 @@ import argparse
 import os
 import platform
 import sys
+import torch
+import rclpy
+
+from rclpy.node import Node
 from pathlib import Path
 from time import sleep
-
-import torch
-
-import rclpy
-from rclpy.node import Node
-
-
-
-
-
 
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLOv5 root directory
@@ -51,14 +44,10 @@ ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
 
 from models.common import DetectMultiBackend
 from utils.dataloaders import IMG_FORMATS, VID_FORMATS, LoadImages, LoadScreenshots, LoadStreams
-from utils.general import (LOGGER, Profile, check_file, check_img_size, check_imshow, check_requirements, colorstr, cv2,
-                           increment_path, non_max_suppression, print_args, scale_boxes, strip_optimizer, xyxy2xywh)
+from utils.general import (LOGGER, Profile, check_file, check_img_size, check_imshow, check_requirements, colorstr, cv2, increment_path, non_max_suppression, print_args, scale_boxes, strip_optimizer, xyxy2xywh)
 from utils.plots import Annotator, colors, save_one_box
 from utils.torch_utils import select_device, smart_inference_mode
-
 from std_msgs.msg import String
-
-
 
 @smart_inference_mode()
 def run(
@@ -122,95 +111,84 @@ def run(
     vid_path, vid_writer = [None] * bs, [None] * bs
 
     # Run inference
-    model.warmup(imgsz=(1 if pt or model.triton else bs, 3, *imgsz))  # warmup
-    seen, windows, dt = 0, [], (Profile(), Profile(), Profile())
-    for path, im, im0s, vid_cap, s in dataset:
-        with dt[0]:
-            im = torch.from_numpy(im).to(model.device)
-            im = im.half() if model.fp16 else im.float()  # uint8 to fp16/32
-            im /= 255  # 0 - 255 to 0.0 - 1.0
-            if len(im.shape) == 3:
-                im = im[None]  # expand for batch dim
+    rclpy.init()
+    node = rclpy.create_node('yolo_publisher')
+    publisher = node.create_publisher(String, 'detect', 1)
+    msg = String()
 
-        # Inference
-        with dt[1]:
-            visualize = increment_path(save_dir / Path(path).stem, mkdir=True) if visualize else False
-            pred = model(im, augment=augment, visualize=visualize)
+    while rclpy.ok():
+        model.warmup(imgsz=(1 if pt or model.triton else bs, 3, *imgsz))  # warmup
+        seen, windows, dt = 0, [], (Profile(), Profile(), Profile())
+        for path, im, im0s, vid_cap, s in dataset:
+            with dt[0]:
+                im = torch.from_numpy(im).to(model.device)
+                im = im.half() if model.fp16 else im.float()  # uint8 to fp16/32
+                im /= 255  # 0 - 255 to 0.0 - 1.0
+                if len(im.shape) == 3:
+                    im = im[None]  # expand for batch dim
 
-        # NMS
-        with dt[2]:
-            pred = non_max_suppression(pred, conf_thres, iou_thres, classes, agnostic_nms, max_det=max_det)
+            # Inference
+            with dt[1]:
+                visualize = increment_path(save_dir / Path(path).stem, mkdir=True) if visualize else False
+                pred = model(im, augment=augment, visualize=visualize)
 
-        # Process predictions
-        for i, det in enumerate(pred):  # per image
-            seen += 1
-            if webcam:  # batch_size >= 1
-                p, im0, frame = path[i], im0s[i].copy(), dataset.count
-                s += f'{i}: '
-            else:
-                p, im0, frame = path, im0s.copy(), getattr(dataset, 'frame', 0)
+            # NMS
+            with dt[2]:
+                pred = non_max_suppression(pred, conf_thres, iou_thres, classes, agnostic_nms, max_det=max_det)
 
-            p = Path(p)  # to Path
-            save_path = str(save_dir / p.name)  # im.jpg
-            txt_path = str(save_dir / 'labels' / p.stem) + ('' if dataset.mode == 'image' else f'_{frame}')  # im.txt
-            s += '%gx%g ' % im.shape[2:]  # print string
-            gn = torch.tensor(im0.shape)[[1, 0, 1, 0]]  # normalization gain whwh
-            imc = im0.copy() if save_crop else im0  # for save_crop
-            annotator = Annotator(im0, line_width=line_thickness, example=str(names))
+            # Process predictions
+            for i, det in enumerate(pred):  # per image
+                seen += 1
+                if webcam:  # batch_size >= 1
+                    p, im0, frame = path[i], im0s[i].copy(), dataset.count
+                    s += f'{i}: '
+                else:
+                    p, im0, frame = path, im0s.copy(), getattr(dataset, 'frame', 0)
 
-            rclpy.init()
+                p = Path(p)  # to Path
+                save_path = str(save_dir / p.name)  # im.jpg
+                txt_path = str(save_dir / 'labels' / p.stem) + ('' if dataset.mode == 'image' else f'_{frame}')  # im.txt
+                s += '%gx%g ' % im.shape[2:]  # print string
+                gn = torch.tensor(im0.shape)[[1, 0, 1, 0]]  # normalization gain whwh
+                imc = im0.copy() if save_crop else im0  # for save_crop
+                annotator = Annotator(im0, line_width=line_thickness, example=str(names))
+                
+                if len(det):
+                    # Rescale boxes from img_size to im0 size
+                    det[:, :4] = scale_boxes(im.shape[2:], det[:, :4], im0.shape).round()
 
-            node = rclpy.create_node('yolo_publisher')
+                    # Print results
+                    for c in det[:, 5].unique():
+                        n = (det[:, 5] == c).sum()  # detections per class
+                        s += f"{n} {names[int(c)]}{'s' * (n > 1)}, "  # add to string
 
-            publisher = node.create_publisher(String, 'detect', 1)
+                    # Write results 
+                    for *xyxy, conf, cls in reversed(det):
+                        c = int(cls)
 
-            msg = String()
+                        msg.data = names[c]
+                        node.get_logger().info('Publishing: "%s"' % msg.data)
+                        publisher.publish(msg)
 
-            if len(det):
-                # Rescale boxes from img_size to im0 size
-                det[:, :4] = scale_boxes(im.shape[2:], det[:, :4], im0.shape).round()
-
-                # Print results
-                for c in det[:, 5].unique():
-                    n = (det[:, 5] == c).sum()  # detections per class
-                    s += f"{n} {names[int(c)]}{'s' * (n > 1)}, "  # add to string
-
-                # Write results
-
-
-                for *xyxy, conf, cls in reversed(det):
-                    c = int(cls)
-
-                    msg.data = names[c]
+                # Stream results
+                # im0 = annotator.result()
+                # if view_img:
+                #     if platform.system() == 'Linux' and p not in windows:
+                #         windows.append(p)
+                #         cv2.namedWindow(str(p), cv2.WINDOW_NORMAL | cv2.WINDOW_KEEPRATIO)  # allow window resize (Linux)
+                #         cv2.resizeWindow(str(p), im0.shape[1], im0.shape[0])
+                #     cv2.imshow(str(p), im0)
+                #     cv2.waitKey(1)  # 1 millisecond
+                
+                else:
+                    msg.data = "NULL"
                     node.get_logger().info('Publishing: "%s"' % msg.data)
                     publisher.publish(msg)
 
+                # rate.sleep()
 
-
-            # Stream results
-            # im0 = annotator.result()
-            # if view_img:
-            #     if platform.system() == 'Linux' and p not in windows:
-            #         windows.append(p)
-            #         cv2.namedWindow(str(p), cv2.WINDOW_NORMAL | cv2.WINDOW_KEEPRATIO)  # allow window resize (Linux)
-            #         cv2.resizeWindow(str(p), im0.shape[1], im0.shape[0])
-            #     cv2.imshow(str(p), im0)
-            #     cv2.waitKey(1)  # 1 millisecond
-            
-            else:
-                msg.data = "NULL"
-                node.get_logger().info('Publishing: "%s"' % msg.data)
-                publisher.publish(msg)
-
-                
-        node.destroy_node()
-        rclpy.shutdown()
-
-        
-
-
-
-
+            if cv2.waitKey(1) == ord('q'):
+                break
 
 def parse_opt():
     parser = argparse.ArgumentParser()
@@ -246,11 +224,9 @@ def parse_opt():
     print_args(vars(opt))
     return opt
 
-
 def main(opt):
     check_requirements(exclude=('tensorboard', 'thop'))
     run(**vars(opt))
-
 
 if __name__ == "__main__":
     opt = parse_opt()
