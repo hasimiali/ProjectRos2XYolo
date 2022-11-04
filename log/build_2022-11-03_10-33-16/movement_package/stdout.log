@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/movement_package/movement_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/movement_package/movement_package.egg-info/dependency_links.txt
+writing entry points to ../../build/movement_package/movement_package.egg-info/entry_points.txt
+writing requirements to ../../build/movement_package/movement_package.egg-info/requires.txt
+writing top-level names to ../../build/movement_package/movement_package.egg-info/top_level.txt
+reading manifest file '../../build/movement_package/movement_package.egg-info/SOURCES.txt'
+writing manifest file '../../build/movement_package/movement_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying movement_package/movement_node.py -> /home/hisan/Documents/Banyubramanta/ProjectRos2XYolo/build/movement_package/build/lib/movement_package
+running install
+running install_lib
+copying /home/hisan/Documents/Banyubramanta/ProjectRos2XYolo/build/movement_package/build/lib/movement_package/movement_node.py -> /home/hisan/Documents/Banyubramanta/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/movement_package
+byte-compiling /home/hisan/Documents/Banyubramanta/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/movement_package/movement_node.py to movement_node.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/hisan/Documents/Banyubramanta/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/movement_package-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/movement_package/movement_package.egg-info to /home/hisan/Documents/Banyubramanta/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/movement_package-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/hisan/Documents/Banyubramanta/ProjectRos2XYolo/build/movement_package/install.log'
