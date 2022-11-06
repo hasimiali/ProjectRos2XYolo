@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'eye = cv_package.subscriber:main',
+            'yolo = cv_package.yolov5.detect:main',
         ],
     },
 )

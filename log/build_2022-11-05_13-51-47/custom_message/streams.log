@@ -1,0 +1,221 @@
+[0.034s] Invoking command in '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message': CMAKE_PREFIX_PATH=/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package:/opt/ros/foxy /usr/bin/cmake --build /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message -- -j8 -l8
+[0.344s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.346s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.347s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.351s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.381s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.644s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.687s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.919s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.225s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.389s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.390s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.418s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.418s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.418s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.479s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.491s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.494s] -- Added test 'lint_cmake' to check CMake code style
+[1.495s] -- Added test 'xmllint' to check XML markup files
+[1.501s] -- Configuring done
+[1.576s] -- Generating done
+[1.582s] -- Build files have been written to: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message
+[1.613s] [35m[1mScanning dependencies of target custom_message__cpp[0m
+[1.613s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.628s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.942s] [  5%] Built target custom_message__cpp
+[1.958s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.964s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.964s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.969s] [35m[1mScanning dependencies of target custom_message__rosidl_generator_c[0m
+[1.988s] [ 15%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/sphere__functions.c.o[0m
+[1.992s] [ 17%] [32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/num__functions.c.o[0m
+[2.078s] [ 20%] [32m[1mLinking C shared library libcustom_message__rosidl_generator_c.so[0m
+[2.133s] [ 20%] Built target custom_message__rosidl_generator_c
+[2.148s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.153s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.302s] [35m[1mScanning dependencies of target custom_message__rosidl_typesupport_cpp[0m
+[2.327s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/num__type_support.cpp.o[0m
+[2.331s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/sphere__type_support.cpp.o[0m
+[2.331s] [35m[1mScanning dependencies of target custom_message__rosidl_typesupport_fastrtps_cpp[0m
+[2.346s] [35m[1mScanning dependencies of target custom_message__rosidl_typesupport_introspection_cpp[0m
+[2.361s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[2.363s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[2.378s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/sphere__type_support.cpp.o[0m
+[2.381s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/num__type_support.cpp.o[0m
+[2.630s] [35m[1mScanning dependencies of target custom_message__rosidl_typesupport_c[0m
+[2.657s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/num__type_support.cpp.o[0m
+[2.729s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/sphere__type_support.cpp.o[0m
+[2.771s] [35m[1mScanning dependencies of target custom_message__rosidl_typesupport_introspection_c[0m
+[2.802s] [ 48%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/num__type_support.c.o[0m
+[2.802s] [ 51%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_c.so[0m
+[2.872s] [ 53%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/sphere__type_support.c.o[0m
+[2.897s] [ 53%] Built target custom_message__rosidl_typesupport_c
+[2.944s] [ 56%] [32m[1mLinking C shared library libcustom_message__rosidl_typesupport_introspection_c.so[0m
+[2.990s] [ 58%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_cpp.so[0m
+[3.001s] [ 58%] Built target custom_message__rosidl_typesupport_introspection_c
+[3.039s] [ 61%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_introspection_cpp.so[0m
+[3.056s] [ 61%] Built target custom_message__rosidl_typesupport_cpp
+[3.128s] [ 61%] Built target custom_message__rosidl_typesupport_introspection_cpp
+[3.188s] [ 64%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.291s] [ 64%] Built target custom_message__rosidl_typesupport_fastrtps_cpp
+[3.303s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.555s] [35m[1mScanning dependencies of target custom_message__rosidl_typesupport_fastrtps_c[0m
+[3.576s] [ 69%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/num__type_support_c.cpp.o[0m
+[3.576s] [ 71%] [32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/sphere__type_support_c.cpp.o[0m
+[3.988s] [ 74%] [32m[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_c.so[0m
+[4.093s] [ 74%] Built target custom_message__rosidl_typesupport_fastrtps_c
+[4.105s] [35m[1mScanning dependencies of target custom_message[0m
+[4.187s] [ 74%] Built target custom_message
+[4.269s] [35m[1mScanning dependencies of target custom_message__py[0m
+[4.362s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.038s] [ 76%] Built target custom_message__py
+[8.129s] [35m[1mScanning dependencies of target custom_message__python[0m
+[8.310s] [ 79%] [32mBuilding C object CMakeFiles/custom_message__python.dir/rosidl_generator_py/custom_message/msg/_num_s.c.o[0m
+[8.312s] [ 82%] [32mBuilding C object CMakeFiles/custom_message__python.dir/rosidl_generator_py/custom_message/msg/_sphere_s.c.o[0m
+[9.190s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/libcustom_message__python.so[0m
+[9.251s] [ 84%] Built target custom_message__python
+[9.267s] [35m[1mScanning dependencies of target custom_message__rosidl_typesupport_introspection_c__pyext[0m
+[9.267s] [35m[1mScanning dependencies of target custom_message__rosidl_typesupport_c__pyext[0m
+[9.267s] [35m[1mScanning dependencies of target custom_message__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.289s] [ 87%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.290s] [ 89%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c.o[0m
+[9.294s] [ 92%] [32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.399s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.402s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.407s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[9.455s] [100%] Built target custom_message__rosidl_typesupport_c__pyext
+[9.455s] [100%] Built target custom_message__rosidl_typesupport_introspection_c__pyext
+[9.498s] [100%] Built target custom_message__rosidl_typesupport_fastrtps_c__pyext
+[9.513s] Invoked command in '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package:/opt/ros/foxy /usr/bin/cmake --build /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message -- -j8 -l8
+[9.606s] Invoking command in '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message': CMAKE_PREFIX_PATH=/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package:/opt/ros/foxy /usr/bin/cmake --install /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message
+[9.617s] -- Install configuration: ""
+[9.617s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/ament_index/resource_index/rosidl_interfaces/custom_message
+[9.617s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message
+[9.617s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg
+[9.617s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/sphere.h
+[9.618s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/rosidl_generator_c__visibility_control.h
+[9.618s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/num.h
+[9.618s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail
+[9.618s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__type_support.h
+[9.618s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__functions.c
+[9.618s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__struct.h
+[9.618s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__struct.h
+[9.618s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__functions.h
+[9.619s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__functions.c
+[9.619s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__type_support.h
+[9.619s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__functions.h
+[9.619s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/library_path.sh
+[9.619s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/library_path.dsv
+[9.620s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_generator_c.so
+[9.620s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_generator_c.so" to ""
+[9.621s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message
+[9.621s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg
+[9.621s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.621s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail
+[9.621s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[9.621s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[9.621s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so
+[9.622s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so" to ""
+[9.622s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message
+[9.622s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg
+[9.623s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail
+[9.623s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[9.623s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[9.623s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/dds_fastrtps
+[9.624s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.624s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so
+[9.624s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.624s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message
+[9.625s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg
+[9.625s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail
+[9.625s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__rosidl_typesupport_introspection_c.h
+[9.625s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__type_support.c
+[9.625s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__type_support.c
+[9.626s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[9.626s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.626s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so
+[9.626s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so" to ""
+[9.626s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so
+[9.627s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so" to ""
+[9.627s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message
+[9.628s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg
+[9.628s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/sphere.hpp
+[9.628s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/num.hpp
+[9.628s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail
+[9.629s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__traits.hpp
+[9.629s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__traits.hpp
+[9.629s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__struct.hpp
+[9.630s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__builder.hpp
+[9.630s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__builder.hpp
+[9.630s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__struct.hpp
+[9.630s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message
+[9.631s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg
+[9.631s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail
+[9.631s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__type_support.cpp
+[9.631s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[9.631s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[9.632s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__type_support.cpp
+[9.632s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so
+[9.632s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so" to ""
+[9.632s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so
+[9.632s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so" to ""
+[9.633s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/pythonpath.sh
+[9.633s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/pythonpath.dsv
+[9.633s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/__init__.py
+[9.669s] Compiling '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/__init__.py'...
+[9.673s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg
+[9.673s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/_num_s.c
+[9.674s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/__init__.py
+[9.674s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/_sphere.py
+[9.674s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/_sphere_s.c
+[9.674s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/_num.py
+[9.675s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[9.676s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.676s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[9.677s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.677s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[9.678s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[9.678s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__python.so
+[9.679s] -- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__python.so" to ""
+[9.679s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/msg/Num.idl
+[9.680s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/msg/Sphere.idl
+[9.680s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/msg/Num.msg
+[9.680s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/msg/Sphere.msg
+[9.681s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/ament_index/resource_index/package_run_dependencies/custom_message
+[9.681s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/ament_index/resource_index/parent_prefix_path/custom_message
+[9.681s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/ament_prefix_path.sh
+[9.681s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/ament_prefix_path.dsv
+[9.682s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/path.sh
+[9.682s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/path.dsv
+[9.682s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/local_setup.bash
+[9.682s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/local_setup.sh
+[9.682s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/local_setup.zsh
+[9.683s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/local_setup.dsv
+[9.683s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/package.dsv
+[9.683s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/ament_index/resource_index/packages/custom_message
+[9.683s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_generator_cExport.cmake
+[9.683s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_generator_cExport-noconfig.cmake
+[9.683s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport.cmake
+[9.684s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.684s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport.cmake
+[9.684s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport-noconfig.cmake
+[9.684s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_generator_cppExport.cmake
+[9.684s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport.cmake
+[9.685s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.685s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport.cmake
+[9.685s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport-noconfig.cmake
+[9.685s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/rosidl_cmake-extras.cmake
+[9.685s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.686s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/ament_cmake_export_libraries-extras.cmake
+[9.686s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/ament_cmake_export_targets-extras.cmake
+[9.686s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.686s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.686s] -- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.686s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_messageConfig.cmake
+[9.687s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_messageConfig-version.cmake
+[9.687s] -- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/package.xml
+[9.693s] Invoked command in '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message' returned '0': CMAKE_PREFIX_PATH=/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package:/opt/ros/foxy /usr/bin/cmake --install /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message

@@ -62,33 +62,33 @@ from std_msgs.msg import String
 
 @smart_inference_mode()
 def run(
-        weights=ROOT / 'yolov5s.pt',  # model path or triton URL
-        source=ROOT / 'data/images',  # file/dir/URL/glob/screen/0(webcam)
-        data=ROOT / 'data/coco128.yaml',  # dataset.yaml path
-        imgsz=(640, 640),  # inference size (height, width)
-        conf_thres=0.25,  # confidence threshold
-        iou_thres=0.45,  # NMS IOU threshold
-        max_det=1000,  # maximum detections per image
-        device='',  # cuda device, i.e. 0 or 0,1,2,3 or cpu
-        view_img=False,  # show results
-        save_txt=False,  # save results to *.txt
-        save_conf=False,  # save confidences in --save-txt labels
-        save_crop=False,  # save cropped prediction boxes
-        nosave=False,  # do not save images/videos
-        classes=None,  # filter by class: --class 0, or --class 0 2 3
-        agnostic_nms=False,  # class-agnostic NMS
-        augment=False,  # augmented inference
-        visualize=False,  # visualize features
-        update=False,  # update all models
-        project=ROOT / 'runs/detect',  # save results to project/name
-        name='exp',  # save results to project/name
-        exist_ok=False,  # existing project/name ok, do not increment
-        line_thickness=3,  # bounding box thickness (pixels)
-        hide_labels=False,  # hide labels
-        hide_conf=False,  # hide confidences
-        half=False,  # use FP16 half-precision inference
-        dnn=False,  # use OpenCV DNN for ONNX inference
-        vid_stride=1,  # video frame-rate stride
+    weights=ROOT / 'yolov5s.pt',  # model path or triton URL
+    source=ROOT / 'data/images',  # file/dir/URL/glob/screen/0(webcam)
+    data=ROOT / 'data/coco128.yaml',  # dataset.yaml path
+    imgsz=(640, 640),  # inference size (height, width)
+    conf_thres=0.25,  # confidence threshold
+    iou_thres=0.45,  # NMS IOU threshold
+    max_det=1000,  # maximum detections per image
+    device='',  # cuda device, i.e. 0 or 0,1,2,3 or cpu
+    view_img=False,  # show results
+    save_txt=False,  # save results to *.txt
+    save_conf=False,  # save confidences in --save-txt labels
+    save_crop=False,  # save cropped prediction boxes
+    nosave=False,  # do not save images/videos
+    classes=None,  # filter by class: --class 0, or --class 0 2 3
+    agnostic_nms=False,  # class-agnostic NMS
+    augment=False,  # augmented inference
+    visualize=False,  # visualize features
+    update=False,  # update all models
+    project=ROOT / 'runs/detect',  # save results to project/name
+    name='exp',  # save results to project/name
+    exist_ok=False,  # existing project/name ok, do not increment
+    line_thickness=3,  # bounding box thickness (pixels)
+    hide_labels=False,  # hide labels
+    hide_conf=False,  # hide confidences
+    half=False,  # use FP16 half-precision inference
+    dnn=False,  # use OpenCV DNN for ONNX inference
+    vid_stride=1,  # video frame-rate stride
 ):
     source = str(source)
     save_img = not nosave and not source.endswith('.txt')  # save inference images
@@ -153,6 +153,8 @@ def run(
                 pred = non_max_suppression(pred, conf_thres, iou_thres, classes, agnostic_nms, max_det=max_det)
 
             # Process predictions
+            
+            
 
             for i, det in enumerate(pred):  # per image
                 seen += 1
@@ -173,6 +175,8 @@ def run(
 
                 # rate = node.create_rate(200)
                 
+                # Stream results
+                im0 = annotator.result()
 
                 if len(det):
                     # Rescale boxes from img_size to im0 size
@@ -195,25 +199,20 @@ def run(
                         node.get_logger().info('Publishing: "%s"' % msg.data)
                         publisher.publish(msg)
 
-                # Stream results
-                # im0 = annotator.result()
-                # if view_img:
-                #     if platform.system() == 'Linux' and p not in windows:
-                #         windows.append(p)
-                #         cv2.namedWindow(str(p), cv2.WINDOW_NORMAL | cv2.WINDOW_KEEPRATIO)  # allow window resize (Linux)
-                #         cv2.resizeWindow(str(p), im0.shape[1], im0.shape[0])
-                #     cv2.imshow(str(p), im0)
-                #     cv2.waitKey(1)  # 1 millisecond
                 
                 else:
                     msg.data = "NULL"
                     node.get_logger().info('Publishing: "%s"' % msg.data)
                     publisher.publish(msg)
 
+                cv2.imshow('Webcam_Frame', im0)
+
                 # rate.sleep()
 
-            if cv2.waitKey(1) == ord('q'):
-                break
+        # if cv2.waitKey(1) == ord('q'):
+        #     node.destroy_node()
+        #     break
+
 
 
         

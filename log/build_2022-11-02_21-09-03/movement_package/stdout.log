@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/movement_package/movement_package.egg-info
+writing ../build/movement_package/movement_package.egg-info/PKG-INFO
+writing dependency_links to ../build/movement_package/movement_package.egg-info/dependency_links.txt
+writing entry points to ../build/movement_package/movement_package.egg-info/entry_points.txt
+writing requirements to ../build/movement_package/movement_package.egg-info/requires.txt
+writing top-level names to ../build/movement_package/movement_package.egg-info/top_level.txt
+writing manifest file '../build/movement_package/movement_package.egg-info/SOURCES.txt'
+reading manifest file '../build/movement_package/movement_package.egg-info/SOURCES.txt'
+writing manifest file '../build/movement_package/movement_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/movement_package/build
+creating /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/movement_package/build/lib
+creating /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/movement_package/build/lib/movement_package
+copying movement_package/__init__.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/movement_package/build/lib/movement_package
+running install
+running install_lib
+creating /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/movement_package
+copying /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/movement_package/build/lib/movement_package/__init__.py -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/movement_package
+byte-compiling /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/movement_package/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/share/ament_index
+creating /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/share/ament_index/resource_index
+creating /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/share/ament_index/resource_index/packages
+copying resource/movement_package -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/share/movement_package
+running install_egg_info
+Copying ../build/movement_package/movement_package.egg-info to /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/movement_package-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/movement_package/install.log'

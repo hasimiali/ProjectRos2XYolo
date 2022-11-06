@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.001344] (custom_message) JobQueued: {'identifier': 'custom_message', 'dependencies': OrderedDict()}
+[0.001453] (cv_package) JobQueued: {'identifier': 'cv_package', 'dependencies': OrderedDict()}
+[0.001559] (custom_message) JobStarted: {'identifier': 'custom_message'}
+[0.013289] (cv_package) JobStarted: {'identifier': 'cv_package'}
+[0.031268] (custom_message) JobProgress: {'identifier': 'custom_message', 'progress': 'cmake'}
+[0.032505] (custom_message) JobProgress: {'identifier': 'custom_message', 'progress': 'build'}
+[0.034006] (custom_message) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message', '--', '-j8', '-l8'], 'cwd': '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message', 'env': OrderedDict([('USER', 'cimi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1875'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/cimi'), ('OLDPWD', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cimi/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef498121f6b352db51d759bd6365fef3'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install'), ('LOGNAME', 'cimi'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:49270'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'cimi'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/cimi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vi:@/tmp/.ICE-unix/1915,unix/vi:/tmp/.ICE-unix/1915'), ('INVOCATION_ID', '6c1e1fb56a1a47d39afe6469147ca55f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', '48c6fe85-b5f5-405d-8a10-9d2a63d02a1f'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package:/opt/ros/foxy'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef498121f6b352db51d759bd6365fef3'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package:/opt/ros/foxy')]), 'shell': False}
+[0.099626] (-) TimerEvent: {}
+[0.200197] (-) TimerEvent: {}
+[0.300740] (-) TimerEvent: {}
+[0.344667] (custom_message) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.345764] (custom_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.347279] (custom_message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.351404] (custom_message) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.378860] (custom_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.382814] (custom_message) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400922] (-) TimerEvent: {}
+[0.501390] (-) TimerEvent: {}
+[0.539028] (custom_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601532] (-) TimerEvent: {}
+[0.645412] (custom_message) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.688362] (custom_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.701681] (-) TimerEvent: {}
+[0.802023] (-) TimerEvent: {}
+[0.861648] (cv_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/cv_package', 'build', '--build-base', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/build', 'install', '--prefix', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package', '--record', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/src/cv_package', 'env': {'USER': 'cimi', 'LC_TIME': 'id_ID.UTF-8', 'SSH_AGENT_PID': '1875', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/cimi', 'OLDPWD': '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/cimi/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '1692', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ef498121f6b352db51d759bd6365fef3', 'DBUS_STARTER_BUS_TYPE': 'session', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'COLCON_PREFIX_PATH': '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install', 'LOGNAME': 'cimi', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '8:49270', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'USERNAME': 'cimi', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/cimi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/vi:@/tmp/.ICE-unix/1915,unix/vi:/tmp/.ICE-unix/1915', 'INVOCATION_ID': '6c1e1fb56a1a47d39afe6469147ca55f', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'id_ID.UTF-8', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TILIX_ID': '48c6fe85-b5f5-405d-8a10-9d2a63d02a1f', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package:/opt/ros/foxy', 'LC_NAME': 'id_ID.UTF-8', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ef498121f6b352db51d759bd6365fef3', 'LC_NUMERIC': 'id_ID.UTF-8', 'PYTHONPATH': '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.902147] (-) TimerEvent: {}
+[0.920624] (custom_message) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.002272] (-) TimerEvent: {}
+[1.102649] (-) TimerEvent: {}
+[1.146031] (cv_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.146779] (cv_package) StdoutLine: {'line': b'writing ../../build/cv_package/cv_package.egg-info/PKG-INFO\n'}
+[1.147257] (cv_package) StdoutLine: {'line': b'writing dependency_links to ../../build/cv_package/cv_package.egg-info/dependency_links.txt\n'}
+[1.147677] (cv_package) StdoutLine: {'line': b'writing entry points to ../../build/cv_package/cv_package.egg-info/entry_points.txt\n'}
+[1.147979] (cv_package) StdoutLine: {'line': b'writing requirements to ../../build/cv_package/cv_package.egg-info/requires.txt\n'}
+[1.148253] (cv_package) StdoutLine: {'line': b'writing top-level names to ../../build/cv_package/cv_package.egg-info/top_level.txt\n'}
+[1.188731] (cv_package) StdoutLine: {'line': b"reading manifest file '../../build/cv_package/cv_package.egg-info/SOURCES.txt'\n"}
+[1.189912] (cv_package) StdoutLine: {'line': b"writing manifest file '../../build/cv_package/cv_package.egg-info/SOURCES.txt'\n"}
+[1.190297] (cv_package) StdoutLine: {'line': b'running build\n'}
+[1.190514] (cv_package) StdoutLine: {'line': b'running build_py\n'}
+[1.190842] (cv_package) StdoutLine: {'line': b'running install\n'}
+[1.191677] (cv_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.193581] (cv_package) StdoutLine: {'line': b'running install_data\n'}
+[1.194252] (cv_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.196560] (cv_package) StdoutLine: {'line': b"removing '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.197131] (cv_package) StdoutLine: {'line': b'Copying ../../build/cv_package/cv_package.egg-info to /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package-0.0.0-py3.8.egg-info\n'}
+[1.198852] (cv_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.202749] (-) TimerEvent: {}
+[1.218825] (cv_package) StdoutLine: {'line': b'Installing eye script to /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/cv_package\n'}
+[1.219278] (cv_package) StdoutLine: {'line': b'Installing yolo script to /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/cv_package\n'}
+[1.219659] (cv_package) StdoutLine: {'line': b"writing list of installed files to '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/cv_package/install.log'\n"}
+[1.226751] (custom_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.249307] (cv_package) CommandEnded: {'returncode': 0}
+[1.268856] (cv_package) JobEnded: {'identifier': 'cv_package', 'rc': 0}
+[1.302876] (-) TimerEvent: {}
+[1.361803] (custom_message) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.390380] (custom_message) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.391077] (custom_message) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.402984] (-) TimerEvent: {}
+[1.419311] (custom_message) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.419622] (custom_message) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.419794] (custom_message) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.479880] (custom_message) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.492812] (custom_message) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.495034] (custom_message) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.496317] (custom_message) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.502034] (custom_message) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.503112] (-) TimerEvent: {}
+[1.577704] (custom_message) StdoutLine: {'line': b'-- Generating done\n'}
+[1.583829] (custom_message) StdoutLine: {'line': b'-- Build files have been written to: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message\n'}
+[1.603249] (-) TimerEvent: {}
+[1.613945] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__cpp\x1b[0m\n'}
+[1.614318] (custom_message) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.629473] (custom_message) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.703362] (-) TimerEvent: {}
+[1.803684] (-) TimerEvent: {}
+[1.904016] (-) TimerEvent: {}
+[1.943236] (custom_message) StdoutLine: {'line': b'[  5%] Built target custom_message__cpp\n'}
+[1.959426] (custom_message) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.964783] (custom_message) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.965689] (custom_message) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.970199] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_generator_c\x1b[0m\n'}
+[1.989758] (custom_message) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[1.993019] (custom_message) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_message__rosidl_generator_c.dir/rosidl_generator_c/custom_message/msg/detail/num__functions.c.o\x1b[0m\n'}
+[2.004128] (-) TimerEvent: {}
+[2.079119] (custom_message) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcustom_message__rosidl_generator_c.so\x1b[0m\n'}
+[2.104227] (-) TimerEvent: {}
+[2.133916] (custom_message) StdoutLine: {'line': b'[ 20%] Built target custom_message__rosidl_generator_c\n'}
+[2.149079] (custom_message) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.154572] (custom_message) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.204323] (-) TimerEvent: {}
+[2.302908] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.304406] (-) TimerEvent: {}
+[2.328704] (custom_message) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.331908] (custom_message) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_message/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.332330] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.346794] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.361926] (custom_message) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[2.363953] (custom_message) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_message/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.379198] (custom_message) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.381762] (custom_message) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_message/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[2.404525] (-) TimerEvent: {}
+[2.505094] (-) TimerEvent: {}
+[2.605531] (-) TimerEvent: {}
+[2.631093] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_typesupport_c\x1b[0m\n'}
+[2.658455] (custom_message) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.705645] (-) TimerEvent: {}
+[2.730074] (custom_message) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_message/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.772317] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.802666] (custom_message) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[2.803732] (custom_message) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.805733] (-) TimerEvent: {}
+[2.873534] (custom_message) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_message/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[2.898705] (custom_message) StdoutLine: {'line': b'[ 53%] Built target custom_message__rosidl_typesupport_c\n'}
+[2.905847] (-) TimerEvent: {}
+[2.945404] (custom_message) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libcustom_message__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.991190] (custom_message) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.002167] (custom_message) StdoutLine: {'line': b'[ 58%] Built target custom_message__rosidl_typesupport_introspection_c\n'}
+[3.005981] (-) TimerEvent: {}
+[3.040053] (custom_message) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.056927] (custom_message) StdoutLine: {'line': b'[ 61%] Built target custom_message__rosidl_typesupport_cpp\n'}
+[3.106113] (-) TimerEvent: {}
+[3.129208] (custom_message) StdoutLine: {'line': b'[ 61%] Built target custom_message__rosidl_typesupport_introspection_cpp\n'}
+[3.189824] (custom_message) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.206255] (-) TimerEvent: {}
+[3.292361] (custom_message) StdoutLine: {'line': b'[ 64%] Built target custom_message__rosidl_typesupport_fastrtps_cpp\n'}
+[3.304432] (custom_message) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.306356] (-) TimerEvent: {}
+[3.406669] (-) TimerEvent: {}
+[3.506941] (-) TimerEvent: {}
+[3.556324] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.576766] (custom_message) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[3.577332] (custom_message) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[3.607082] (-) TimerEvent: {}
+[3.707475] (-) TimerEvent: {}
+[3.807904] (-) TimerEvent: {}
+[3.908362] (-) TimerEvent: {}
+[3.989855] (custom_message) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_message__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.008511] (-) TimerEvent: {}
+[4.094285] (custom_message) StdoutLine: {'line': b'[ 74%] Built target custom_message__rosidl_typesupport_fastrtps_c\n'}
+[4.106720] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message\x1b[0m\n'}
+[4.108910] (-) TimerEvent: {}
+[4.187863] (custom_message) StdoutLine: {'line': b'[ 74%] Built target custom_message\n'}
+[4.209220] (-) TimerEvent: {}
+[4.269645] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__py\x1b[0m\n'}
+[4.309485] (-) TimerEvent: {}
+[4.363093] (custom_message) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.409805] (-) TimerEvent: {}
+[4.511055] (-) TimerEvent: {}
+[4.612165] (-) TimerEvent: {}
+[4.713640] (-) TimerEvent: {}
+[4.814848] (-) TimerEvent: {}
+[4.916049] (-) TimerEvent: {}
+[5.017298] (-) TimerEvent: {}
+[5.118450] (-) TimerEvent: {}
+[5.219736] (-) TimerEvent: {}
+[5.320997] (-) TimerEvent: {}
+[5.422119] (-) TimerEvent: {}
+[5.523510] (-) TimerEvent: {}
+[5.625041] (-) TimerEvent: {}
+[5.726194] (-) TimerEvent: {}
+[5.827499] (-) TimerEvent: {}
+[5.928756] (-) TimerEvent: {}
+[6.031864] (-) TimerEvent: {}
+[6.133825] (-) TimerEvent: {}
+[6.234987] (-) TimerEvent: {}
+[6.336227] (-) TimerEvent: {}
+[6.437434] (-) TimerEvent: {}
+[6.538629] (-) TimerEvent: {}
+[6.640109] (-) TimerEvent: {}
+[6.741376] (-) TimerEvent: {}
+[6.842617] (-) TimerEvent: {}
+[6.943809] (-) TimerEvent: {}
+[7.045013] (-) TimerEvent: {}
+[7.146397] (-) TimerEvent: {}
+[7.247637] (-) TimerEvent: {}
+[7.348896] (-) TimerEvent: {}
+[7.450168] (-) TimerEvent: {}
+[7.551552] (-) TimerEvent: {}
+[7.652766] (-) TimerEvent: {}
+[7.754167] (-) TimerEvent: {}
+[7.855442] (-) TimerEvent: {}
+[7.956877] (-) TimerEvent: {}
+[8.038699] (custom_message) StdoutLine: {'line': b'[ 76%] Built target custom_message__py\n'}
+[8.057140] (-) TimerEvent: {}
+[8.130217] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__python\x1b[0m\n'}
+[8.157419] (-) TimerEvent: {}
+[8.258590] (-) TimerEvent: {}
+[8.310884] (custom_message) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/custom_message__python.dir/rosidl_generator_py/custom_message/msg/_num_s.c.o\x1b[0m\n'}
+[8.312879] (custom_message) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_message__python.dir/rosidl_generator_py/custom_message/msg/_sphere_s.c.o\x1b[0m\n'}
+[8.358898] (-) TimerEvent: {}
+[8.460114] (-) TimerEvent: {}
+[8.561812] (-) TimerEvent: {}
+[8.663017] (-) TimerEvent: {}
+[8.764144] (-) TimerEvent: {}
+[8.865309] (-) TimerEvent: {}
+[8.966709] (-) TimerEvent: {}
+[9.068481] (-) TimerEvent: {}
+[9.170047] (-) TimerEvent: {}
+[9.191058] (custom_message) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_message/libcustom_message__python.so\x1b[0m\n'}
+[9.252750] (custom_message) StdoutLine: {'line': b'[ 84%] Built target custom_message__python\n'}
+[9.268091] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[9.268535] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.268771] (custom_message) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_message__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.270121] (-) TimerEvent: {}
+[9.290460] (custom_message) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.291462] (custom_message) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.295363] (custom_message) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_message/_custom_message_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.370255] (-) TimerEvent: {}
+[9.400688] (custom_message) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.403037] (custom_message) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.408481] (custom_message) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.456100] (custom_message) StdoutLine: {'line': b'[100%] Built target custom_message__rosidl_typesupport_c__pyext\n'}
+[9.456516] (custom_message) StdoutLine: {'line': b'[100%] Built target custom_message__rosidl_typesupport_introspection_c__pyext\n'}
+[9.470353] (-) TimerEvent: {}
+[9.499745] (custom_message) StdoutLine: {'line': b'[100%] Built target custom_message__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.513751] (custom_message) CommandEnded: {'returncode': 0}
+[9.570606] (-) TimerEvent: {}
+[9.591943] (custom_message) JobProgress: {'identifier': 'custom_message', 'progress': 'install'}
+[9.606371] (custom_message) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message'], 'cwd': '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message', 'env': OrderedDict([('USER', 'cimi'), ('LC_TIME', 'id_ID.UTF-8'), ('SSH_AGENT_PID', '1875'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/cimi'), ('OLDPWD', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/src'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('ZSH', '/home/cimi/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1692'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef498121f6b352db51d759bd6365fef3'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install'), ('LOGNAME', 'cimi'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:49270'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('USERNAME', 'cimi'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/cimi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vi:@/tmp/.ICE-unix/1915,unix/vi:/tmp/.ICE-unix/1915'), ('INVOCATION_ID', '6c1e1fb56a1a47d39afe6469147ca55f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', '48c6fe85-b5f5-405d-8a10-9d2a63d02a1f'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package:/opt/ros/foxy'), ('LC_NAME', 'id_ID.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ef498121f6b352db51d759bd6365fef3'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('PYTHONPATH', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/movement_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/master_package:/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/cv_package:/opt/ros/foxy')]), 'shell': False}
+[9.617957] (custom_message) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.618175] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/ament_index/resource_index/rosidl_interfaces/custom_message\n'}
+[9.618511] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message\n'}
+[9.618754] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg\n'}
+[9.618976] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/sphere.h\n'}
+[9.619116] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.619213] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/num.h\n'}
+[9.619344] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail\n'}
+[9.619442] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__type_support.h\n'}
+[9.619571] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__functions.c\n'}
+[9.619700] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__struct.h\n'}
+[9.619790] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__struct.h\n'}
+[9.619884] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__functions.h\n'}
+[9.620042] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__functions.c\n'}
+[9.620129] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__type_support.h\n'}
+[9.620248] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__functions.h\n'}
+[9.620471] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/library_path.sh\n'}
+[9.620603] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/library_path.dsv\n'}
+[9.621083] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_generator_c.so\n'}
+[9.621725] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_generator_c.so" to ""\n'}
+[9.621932] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message\n'}
+[9.622164] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg\n'}
+[9.622382] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.622542] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail\n'}
+[9.622627] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[9.622731] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[9.622919] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so\n'}
+[9.623620] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.623780] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message\n'}
+[9.623948] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg\n'}
+[9.624077] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail\n'}
+[9.624308] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.624542] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.624762] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/dds_fastrtps\n'}
+[9.624970] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.625156] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.625389] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.625651] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message\n'}
+[9.626000] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg\n'}
+[9.626225] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail\n'}
+[9.626459] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[9.626715] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__type_support.c\n'}
+[9.626920] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__type_support.c\n'}
+[9.627110] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[9.627270] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.627477] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so\n'}
+[9.627674] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.627880] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so\n'}
+[9.628233] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_c.so" to ""\n'}
+[9.628539] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message\n'}
+[9.628901] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg\n'}
+[9.629184] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/sphere.hpp\n'}
+[9.629427] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/num.hpp\n'}
+[9.629744] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail\n'}
+[9.630020] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__traits.hpp\n'}
+[9.630379] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__traits.hpp\n'}
+[9.630633] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__struct.hpp\n'}
+[9.631012] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__builder.hpp\n'}
+[9.631330] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__builder.hpp\n'}
+[9.631596] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__struct.hpp\n'}
+[9.631789] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message\n'}
+[9.632042] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg\n'}
+[9.632220] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail\n'}
+[9.632398] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__type_support.cpp\n'}
+[9.632601] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.632837] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.633035] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/include/custom_message/msg/detail/sphere__type_support.cpp\n'}
+[9.633213] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so\n'}
+[9.633452] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.633663] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so\n'}
+[9.633874] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__rosidl_typesupport_cpp.so" to ""\n'}
+[9.634060] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/pythonpath.sh\n'}
+[9.634236] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/pythonpath.dsv\n'}
+[9.634412] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/__init__.py\n'}
+[9.670033] (custom_message) StdoutLine: {'line': b"Compiling '/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/__init__.py'...\n"}
+[9.670682] (-) TimerEvent: {}
+[9.674438] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg\n'}
+[9.674761] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/_num_s.c\n'}
+[9.674992] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/__init__.py\n'}
+[9.675365] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/_sphere.py\n'}
+[9.675688] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/_sphere_s.c\n'}
+[9.675857] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/msg/_num.py\n'}
+[9.676221] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.677065] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.677604] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.678329] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.678806] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.679568] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages/custom_message/custom_message_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.679895] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__python.so\n'}
+[9.680449] (custom_message) StdoutLine: {'line': b'-- Set runtime path of "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/lib/libcustom_message__python.so" to ""\n'}
+[9.680761] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/msg/Num.idl\n'}
+[9.681215] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/msg/Sphere.idl\n'}
+[9.681584] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/msg/Num.msg\n'}
+[9.681957] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/msg/Sphere.msg\n'}
+[9.682156] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/ament_index/resource_index/package_run_dependencies/custom_message\n'}
+[9.682357] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/ament_index/resource_index/parent_prefix_path/custom_message\n'}
+[9.682554] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/ament_prefix_path.sh\n'}
+[9.682787] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/ament_prefix_path.dsv\n'}
+[9.682997] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/path.sh\n'}
+[9.683187] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/environment/path.dsv\n'}
+[9.683376] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/local_setup.bash\n'}
+[9.683559] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/local_setup.sh\n'}
+[9.683755] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/local_setup.zsh\n'}
+[9.683946] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/local_setup.dsv\n'}
+[9.684145] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/package.dsv\n'}
+[9.684310] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/ament_index/resource_index/packages/custom_message\n'}
+[9.684506] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_generator_cExport.cmake\n'}
+[9.684699] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.684948] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.685149] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.685341] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport.cmake\n'}
+[9.685508] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.685703] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_generator_cppExport.cmake\n'}
+[9.685898] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.686090] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.686254] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport.cmake\n'}
+[9.686471] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_message__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.686668] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/rosidl_cmake-extras.cmake\n'}
+[9.686833] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.687049] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.687237] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.687429] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.687638] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.687802] (custom_message) StdoutLine: {'line': b'-- Installing: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.687970] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_messageConfig.cmake\n'}
+[9.688134] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/cmake/custom_messageConfig-version.cmake\n'}
+[9.688298] (custom_message) StdoutLine: {'line': b'-- Up-to-date: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message/share/custom_message/package.xml\n'}
+[9.690713] (custom_message) CommandEnded: {'returncode': 0}
+[9.770852] (-) TimerEvent: {}
+[9.805492] (custom_message) JobEnded: {'identifier': 'custom_message', 'rc': 0}
+[9.806745] (-) EventReactorShutdown: {}
