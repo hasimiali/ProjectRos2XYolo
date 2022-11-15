@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing cv_package.egg-info/PKG-INFO
+writing dependency_links to cv_package.egg-info/dependency_links.txt
+writing entry points to cv_package.egg-info/entry_points.txt
+writing requirements to cv_package.egg-info/requires.txt
+writing top-level names to cv_package.egg-info/top_level.txt
+reading manifest file 'cv_package.egg-info/SOURCES.txt'
+writing manifest file 'cv_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/site.py
+Creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv-package.egg-link (link to .)
+Installing eye script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/cv_package
+Installing yolo script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/cv_package
+
+Installed /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package
+running install_data

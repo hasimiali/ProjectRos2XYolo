@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -Wextra -std=gnu99
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"custom_message\" -Dcustom_message__rosidl_typesupport_introspection_c__pyext_EXPORTS
 
-C_INCLUDES = -I/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_c -I/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py -I/usr/include/python3.8 -I/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_c -I/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_introspection_c -isystem /opt/ros/foxy/include 
+C_INCLUDES = -I/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_c -I/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py -I/usr/include/python3.8 -I/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_c -I/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_introspection_c -isystem /opt/ros/foxy/include 
 

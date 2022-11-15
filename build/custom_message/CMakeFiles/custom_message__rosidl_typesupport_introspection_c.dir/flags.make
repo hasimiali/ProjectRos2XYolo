@@ -6,5 +6,5 @@ C_FLAGS = -fPIC   -Wall -std=gnu11
 
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"custom_message\" -Dcustom_message__rosidl_typesupport_introspection_c_EXPORTS
 
-C_INCLUDES = -I/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_c -I/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_introspection_c -isystem /opt/ros/foxy/include 
+C_INCLUDES = -I/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_c -I/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_introspection_c -isystem /opt/ros/foxy/include 
 

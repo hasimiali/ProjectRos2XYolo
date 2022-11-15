@@ -1,0 +1,38 @@
+[0.916s] Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/cv_package': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_package build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/install.log --single-version-externally-managed
+[1.169s] running egg_info
+[1.169s] creating ../../build/cv_package/cv_package.egg-info
+[1.169s] writing ../../build/cv_package/cv_package.egg-info/PKG-INFO
+[1.170s] writing dependency_links to ../../build/cv_package/cv_package.egg-info/dependency_links.txt
+[1.170s] writing entry points to ../../build/cv_package/cv_package.egg-info/entry_points.txt
+[1.170s] writing requirements to ../../build/cv_package/cv_package.egg-info/requires.txt
+[1.170s] writing top-level names to ../../build/cv_package/cv_package.egg-info/top_level.txt
+[1.172s] writing manifest file '../../build/cv_package/cv_package.egg-info/SOURCES.txt'
+[1.209s] reading manifest file '../../build/cv_package/cv_package.egg-info/SOURCES.txt'
+[1.210s] writing manifest file '../../build/cv_package/cv_package.egg-info/SOURCES.txt'
+[1.210s] running build
+[1.211s] running build_py
+[1.211s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build
+[1.211s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build/lib
+[1.211s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+[1.211s] copying cv_package/__init__.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+[1.212s] copying cv_package/subscriber.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build/lib/cv_package
+[1.212s] running install
+[1.212s] running install_lib
+[1.214s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+[1.214s] copying /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build/lib/cv_package/__init__.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+[1.214s] copying /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build/lib/cv_package/subscriber.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package
+[1.215s] byte-compiling /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package/__init__.py to __init__.cpython-38.pyc
+[1.216s] byte-compiling /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package/subscriber.py to subscriber.cpython-38.pyc
+[1.216s] running install_data
+[1.217s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/share/ament_index
+[1.217s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/share/ament_index/resource_index
+[1.217s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/share/ament_index/resource_index/packages
+[1.218s] copying resource/cv_package -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/share/ament_index/resource_index/packages
+[1.218s] copying package.xml -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/share/cv_package
+[1.218s] running install_egg_info
+[1.221s] Copying ../../build/cv_package/cv_package.egg-info to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package-0.0.0-py3.8.egg-info
+[1.222s] running install_scripts
+[1.247s] Installing eye script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/cv_package
+[1.247s] Installing yolo script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/cv_package
+[1.248s] writing list of installed files to '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/install.log'
+[1.275s] Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/cv_package' returned '0': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_package build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/install.log --single-version-externally-managed

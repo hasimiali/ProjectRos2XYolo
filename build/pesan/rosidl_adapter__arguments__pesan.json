@@ -1,0 +1,7 @@
+{
+  "package_name": "pesan",
+  "non_idl_tuples": [
+    "/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/pesan:msg/Movement.msg",
+    "/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/pesan:msg/Mission.msg"
+  ]
+}

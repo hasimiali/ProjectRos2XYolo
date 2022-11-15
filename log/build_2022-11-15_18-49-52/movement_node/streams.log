@@ -1,0 +1,21 @@
+[1.774s] Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/movement_node': AMENT_PREFIX_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan LD_LIBRARY_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/movement_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/install.log --single-version-externally-managed
+[3.886s] running egg_info
+[3.892s] writing ../../build/movement_node/movement_node.egg-info/PKG-INFO
+[3.894s] writing dependency_links to ../../build/movement_node/movement_node.egg-info/dependency_links.txt
+[3.896s] writing entry points to ../../build/movement_node/movement_node.egg-info/entry_points.txt
+[3.897s] writing requirements to ../../build/movement_node/movement_node.egg-info/requires.txt
+[3.899s] writing top-level names to ../../build/movement_node/movement_node.egg-info/top_level.txt
+[4.189s] reading manifest file '../../build/movement_node/movement_node.egg-info/SOURCES.txt'
+[4.197s] writing manifest file '../../build/movement_node/movement_node.egg-info/SOURCES.txt'
+[4.199s] running build
+[4.200s] running build_py
+[4.201s] running install
+[4.208s] running install_lib
+[4.218s] running install_data
+[4.223s] running install_egg_info
+[4.235s] removing '/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages/movement_node-0.0.0-py3.8.egg-info' (and everything under it)
+[4.238s] Copying ../../build/movement_node/movement_node.egg-info to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages/movement_node-0.0.0-py3.8.egg-info
+[4.246s] running install_scripts
+[4.384s] Installing movement script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/movement_node
+[4.386s] writing list of installed files to '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/install.log'
+[4.525s] Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/movement_node' returned '0': AMENT_PREFIX_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan LD_LIBRARY_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/movement_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/install.log --single-version-externally-managed

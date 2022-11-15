@@ -1,0 +1,4 @@
+[console_scripts]
+listener = test_custom_msg.subscriber:main
+talker = test_custom_msg.publisher:main
+

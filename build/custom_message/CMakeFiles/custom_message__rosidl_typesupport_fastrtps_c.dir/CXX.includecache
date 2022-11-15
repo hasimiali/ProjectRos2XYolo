@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/num__type_support_c.cpp
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/num__type_support_c.cpp
 custom_message/msg/detail/num__rosidl_typesupport_fastrtps_c.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/num__rosidl_typesupport_fastrtps_c.h
 cassert
 -
 limits
@@ -16,23 +16,23 @@ limits
 string
 -
 rosidl_typesupport_fastrtps_c/identifier.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
 rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
 rosidl_typesupport_fastrtps_cpp/message_type_support.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
 custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 custom_message/msg/detail/num__struct.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/num__struct.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/num__struct.h
 custom_message/msg/detail/num__functions.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/num__functions.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/num__functions.h
 fastcdr/Cdr.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/fastcdr/Cdr.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/fastcdr/Cdr.h
 
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/sphere__type_support_c.cpp
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/sphere__type_support_c.cpp
 custom_message/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
 cassert
 -
 limits
@@ -40,21 +40,21 @@ limits
 string
 -
 rosidl_typesupport_fastrtps_c/identifier.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
 rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
 rosidl_typesupport_fastrtps_cpp/message_type_support.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
 custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 custom_message/msg/detail/sphere__struct.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/sphere__struct.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/sphere__struct.h
 custom_message/msg/detail/sphere__functions.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/sphere__functions.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/custom_message/msg/detail/sphere__functions.h
 fastcdr/Cdr.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/fastcdr/Cdr.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/fastcdr/Cdr.h
 geometry_msgs/msg/detail/point__functions.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/geometry_msgs/msg/detail/point__functions.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message/msg/detail/geometry_msgs/msg/detail/point__functions.h
 
 /opt/ros/foxy/include/fastcdr/Cdr.h
 fastcdr_dll.h

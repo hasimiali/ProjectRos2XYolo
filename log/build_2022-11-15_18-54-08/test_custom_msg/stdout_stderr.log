@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing ../../build/test_custom_msg/test_custom_msg.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_custom_msg/test_custom_msg.egg-info/dependency_links.txt
+writing entry points to ../../build/test_custom_msg/test_custom_msg.egg-info/entry_points.txt
+writing requirements to ../../build/test_custom_msg/test_custom_msg.egg-info/requires.txt
+writing top-level names to ../../build/test_custom_msg/test_custom_msg.egg-info/top_level.txt
+reading manifest file '../../build/test_custom_msg/test_custom_msg.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_custom_msg/test_custom_msg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/test_custom_msg/test_custom_msg.egg-info to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/test_custom_msg
+Installing talker script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/test_custom_msg
+writing list of installed files to '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/install.log'

@@ -1,0 +1,41 @@
+[0.615s] Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/test_custom_msg': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_custom_msg build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/install.log --single-version-externally-managed
+[0.830s] running egg_info
+[0.830s] creating ../../build/test_custom_msg/test_custom_msg.egg-info
+[0.831s] writing ../../build/test_custom_msg/test_custom_msg.egg-info/PKG-INFO
+[0.831s] writing dependency_links to ../../build/test_custom_msg/test_custom_msg.egg-info/dependency_links.txt
+[0.831s] writing entry points to ../../build/test_custom_msg/test_custom_msg.egg-info/entry_points.txt
+[0.831s] writing requirements to ../../build/test_custom_msg/test_custom_msg.egg-info/requires.txt
+[0.831s] writing top-level names to ../../build/test_custom_msg/test_custom_msg.egg-info/top_level.txt
+[0.832s] writing manifest file '../../build/test_custom_msg/test_custom_msg.egg-info/SOURCES.txt'
+[0.861s] reading manifest file '../../build/test_custom_msg/test_custom_msg.egg-info/SOURCES.txt'
+[0.862s] writing manifest file '../../build/test_custom_msg/test_custom_msg.egg-info/SOURCES.txt'
+[0.862s] running build
+[0.862s] running build_py
+[0.863s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build
+[0.863s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build/lib
+[0.863s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build/lib/test_custom_msg
+[0.863s] copying test_custom_msg/publisher.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build/lib/test_custom_msg
+[0.863s] copying test_custom_msg/__init__.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build/lib/test_custom_msg
+[0.863s] copying test_custom_msg/subscriber.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build/lib/test_custom_msg
+[0.864s] running install
+[0.864s] running install_lib
+[0.864s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg
+[0.865s] copying /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build/lib/test_custom_msg/publisher.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg
+[0.865s] copying /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build/lib/test_custom_msg/__init__.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg
+[0.865s] copying /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build/lib/test_custom_msg/subscriber.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg
+[0.865s] byte-compiling /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg/publisher.py to publisher.cpython-38.pyc
+[0.866s] byte-compiling /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg/__init__.py to __init__.cpython-38.pyc
+[0.867s] byte-compiling /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg/subscriber.py to subscriber.cpython-38.pyc
+[0.867s] running install_data
+[0.867s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/share/ament_index
+[0.868s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/share/ament_index/resource_index
+[0.868s] creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/share/ament_index/resource_index/packages
+[0.868s] copying resource/test_custom_msg -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/share/ament_index/resource_index/packages
+[0.868s] copying package.xml -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/share/test_custom_msg
+[0.868s] running install_egg_info
+[0.870s] Copying ../../build/test_custom_msg/test_custom_msg.egg-info to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages/test_custom_msg-0.0.0-py3.8.egg-info
+[0.870s] running install_scripts
+[0.886s] Installing listener script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/test_custom_msg
+[0.887s] Installing talker script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/test_custom_msg
+[0.887s] writing list of installed files to '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/install.log'
+[0.907s] Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/test_custom_msg' returned '0': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_custom_msg build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/test_custom_msg/install.log --single-version-externally-managed

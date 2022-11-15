@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing movement_package.egg-info/PKG-INFO
+writing dependency_links to movement_package.egg-info/dependency_links.txt
+writing entry points to movement_package.egg-info/entry_points.txt
+writing requirements to movement_package.egg-info/requires.txt
+writing top-level names to movement_package.egg-info/top_level.txt
+reading manifest file 'movement_package.egg-info/SOURCES.txt'
+writing manifest file 'movement_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/site.py
+Creating /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages/movement-package.egg-link (link to .)
+Installing kecepatan script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/movement_package
+
+Installed /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_package
+running install_data

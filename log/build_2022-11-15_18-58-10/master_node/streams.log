@@ -1,0 +1,24 @@
+[5.036s] Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/master_node': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/install.log --single-version-externally-managed
+[5.377s] running egg_info
+[5.378s] writing ../../build/master_node/master_node.egg-info/PKG-INFO
+[5.379s] writing dependency_links to ../../build/master_node/master_node.egg-info/dependency_links.txt
+[5.379s] writing entry points to ../../build/master_node/master_node.egg-info/entry_points.txt
+[5.379s] writing requirements to ../../build/master_node/master_node.egg-info/requires.txt
+[5.379s] writing top-level names to ../../build/master_node/master_node.egg-info/top_level.txt
+[5.425s] reading manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'
+[5.427s] writing manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'
+[5.427s] running build
+[5.427s] running build_py
+[5.427s] copying master_node/master_node.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build/lib/master_node
+[5.427s] running install
+[5.429s] running install_lib
+[5.431s] copying /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build/lib/master_node/master_node.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node
+[5.432s] byte-compiling /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node/master_node.py to master_node.cpython-38.pyc
+[5.434s] running install_data
+[5.435s] running install_egg_info
+[5.437s] removing '/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node-0.0.0-py3.8.egg-info' (and everything under it)
+[5.438s] Copying ../../build/master_node/master_node.egg-info to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node-0.0.0-py3.8.egg-info
+[5.439s] running install_scripts
+[5.462s] Installing master script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/master_node
+[5.463s] writing list of installed files to '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/install.log'
+[5.516s] Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/master_node' returned '0': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/install.log --single-version-externally-managed

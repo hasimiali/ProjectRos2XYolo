@@ -1,10 +1,10 @@
 {
   "package_name": "custom_message",
-  "output_dir": "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message",
+  "output_dir": "/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_typesupport_fastrtps_c/custom_message",
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
-    "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_adapter/custom_message:msg/Num.idl",
-    "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_adapter/custom_message:msg/Sphere.idl"
+    "/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_adapter/custom_message:msg/Num.idl",
+    "/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_adapter/custom_message:msg/Sphere.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
@@ -78,8 +78,8 @@
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
-    "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_adapter/custom_message/msg/Num.idl",
-    "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_adapter/custom_message/msg/Sphere.idl",
+    "/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_adapter/custom_message/msg/Num.idl",
+    "/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_adapter/custom_message/msg/Sphere.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl",

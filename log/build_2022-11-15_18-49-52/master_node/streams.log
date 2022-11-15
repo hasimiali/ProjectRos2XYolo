@@ -1,0 +1,24 @@
+[1.132s] Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/master_node': AMENT_PREFIX_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan LD_LIBRARY_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/install.log --single-version-externally-managed
+[1.705s] running egg_info
+[1.710s] writing ../../build/master_node/master_node.egg-info/PKG-INFO
+[1.712s] writing dependency_links to ../../build/master_node/master_node.egg-info/dependency_links.txt
+[1.714s] writing entry points to ../../build/master_node/master_node.egg-info/entry_points.txt
+[1.715s] writing requirements to ../../build/master_node/master_node.egg-info/requires.txt
+[1.716s] writing top-level names to ../../build/master_node/master_node.egg-info/top_level.txt
+[2.057s] reading manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'
+[2.064s] writing manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'
+[2.066s] running build
+[2.067s] running build_py
+[2.069s] copying master_node/master_node.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build/lib/master_node
+[2.070s] running install
+[2.080s] running install_lib
+[2.090s] copying /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build/lib/master_node/master_node.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node
+[2.094s] byte-compiling /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node/master_node.py to master_node.cpython-38.pyc
+[2.106s] running install_data
+[2.111s] running install_egg_info
+[2.127s] removing '/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node-0.0.0-py3.8.egg-info' (and everything under it)
+[2.131s] Copying ../../build/master_node/master_node.egg-info to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node-0.0.0-py3.8.egg-info
+[2.143s] running install_scripts
+[2.301s] Installing master script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/master_node
+[2.304s] writing list of installed files to '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/install.log'
+[2.450s] Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/master_node' returned '0': AMENT_PREFIX_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan LD_LIBRARY_PATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/install.log --single-version-externally-managed

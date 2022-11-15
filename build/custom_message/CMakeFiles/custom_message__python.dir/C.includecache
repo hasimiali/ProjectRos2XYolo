@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/_num_s.c
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/_num_s.c
 Python.h
 -
 stdbool.h
 -
 numpy/ndarrayobject.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/numpy/ndarrayobject.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/numpy/ndarrayobject.h
 rosidl_runtime_c/visibility_control.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/rosidl_runtime_c/visibility_control.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/rosidl_runtime_c/visibility_control.h
 custom_message/msg/detail/num__struct.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/custom_message/msg/detail/num__struct.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/custom_message/msg/detail/num__struct.h
 custom_message/msg/detail/num__functions.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/custom_message/msg/detail/num__functions.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/custom_message/msg/detail/num__functions.h
 
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/_sphere_s.c
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/_sphere_s.c
 Python.h
 -
 stdbool.h
 -
 numpy/ndarrayobject.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/numpy/ndarrayobject.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/numpy/ndarrayobject.h
 rosidl_runtime_c/visibility_control.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/rosidl_runtime_c/visibility_control.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/rosidl_runtime_c/visibility_control.h
 custom_message/msg/detail/sphere__struct.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/custom_message/msg/detail/sphere__struct.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/custom_message/msg/detail/sphere__struct.h
 custom_message/msg/detail/sphere__functions.h
-/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/custom_message/msg/detail/sphere__functions.h
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/msg/custom_message/msg/detail/sphere__functions.h
 
 /opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.h
 stdbool.h

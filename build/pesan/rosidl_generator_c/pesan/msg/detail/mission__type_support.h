@@ -1,0 +1,33 @@
+// generated from rosidl_generator_c/resource/idl__type_support.h.em
+// with input from pesan:msg/Mission.idl
+// generated code does not contain a copyright notice
+
+#ifndef PESAN__MSG__DETAIL__MISSION__TYPE_SUPPORT_H_
+#define PESAN__MSG__DETAIL__MISSION__TYPE_SUPPORT_H_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "pesan/msg/rosidl_generator_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_C_PUBLIC_pesan
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_c,
+  pesan,
+  msg,
+  Mission
+)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // PESAN__MSG__DETAIL__MISSION__TYPE_SUPPORT_H_

@@ -1,0 +1,25 @@
+[1.487s] Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package --uninstall --editable --build-directory /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build
+[1.798s] running develop
+[2.025s] Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package' returned '0': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package --uninstall --editable --build-directory /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build
+[2.029s] Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/cv_package': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_package build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/install.log --single-version-externally-managed
+[2.349s] running egg_info
+[2.350s] writing ../../build/cv_package/cv_package.egg-info/PKG-INFO
+[2.351s] writing dependency_links to ../../build/cv_package/cv_package.egg-info/dependency_links.txt
+[2.351s] writing entry points to ../../build/cv_package/cv_package.egg-info/entry_points.txt
+[2.351s] writing requirements to ../../build/cv_package/cv_package.egg-info/requires.txt
+[2.351s] writing top-level names to ../../build/cv_package/cv_package.egg-info/top_level.txt
+[2.604s] reading manifest file '../../build/cv_package/cv_package.egg-info/SOURCES.txt'
+[2.611s] writing manifest file '../../build/cv_package/cv_package.egg-info/SOURCES.txt'
+[2.612s] running build
+[2.614s] running build_py
+[2.616s] running install
+[2.622s] running install_lib
+[2.636s] running install_data
+[2.640s] running install_egg_info
+[2.655s] removing '/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package-0.0.0-py3.8.egg-info' (and everything under it)
+[2.658s] Copying ../../build/cv_package/cv_package.egg-info to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages/cv_package-0.0.0-py3.8.egg-info
+[2.667s] running install_scripts
+[2.807s] Installing eye script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/cv_package
+[2.809s] Installing yolo script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/cv_package
+[2.812s] writing list of installed files to '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/install.log'
+[3.071s] Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/cv_package' returned '0': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cv_package build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/cv_package/install.log --single-version-externally-managed

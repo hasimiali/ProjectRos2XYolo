@@ -1,0 +1,4 @@
+Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/pesan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/pesan -- -j8 -l8
+Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/pesan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/pesan -- -j8 -l8
+Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/pesan': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/pesan
+Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/pesan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/pesan

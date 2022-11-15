@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pesan/msg/Mission.msg
+// generated code does not contain a copyright notice
+
+
+module pesan {
+  module msg {
+    struct Mission {
+      int64 mission;
+    };
+  };
+};

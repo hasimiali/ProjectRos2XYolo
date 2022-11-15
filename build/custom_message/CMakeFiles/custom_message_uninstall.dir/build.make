@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/src/custom_message
+CMAKE_SOURCE_DIR = /home/cimi/Documents/Workspace/ProjectRos2XYolo/src/custom_message
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message
+CMAKE_BINARY_DIR = /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message
 
 # Utility rule file for custom_message_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/
 include CMakeFiles/custom_message_uninstall.dir/progress.make
 
 CMakeFiles/custom_message_uninstall:
-	/usr/bin/cmake -P /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 custom_message_uninstall: CMakeFiles/custom_message_uninstall
 custom_message_uninstall: CMakeFiles/custom_message_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/custom_message_uninstall.dir/clean:
 .PHONY : CMakeFiles/custom_message_uninstall.dir/clean
 
 CMakeFiles/custom_message_uninstall.dir/depend:
-	cd /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/src/custom_message /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/src/custom_message /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/CMakeFiles/custom_message_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cimi/Documents/Workspace/ProjectRos2XYolo/src/custom_message /home/cimi/Documents/Workspace/ProjectRos2XYolo/src/custom_message /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/CMakeFiles/custom_message_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custom_message_uninstall.dir/depend
 

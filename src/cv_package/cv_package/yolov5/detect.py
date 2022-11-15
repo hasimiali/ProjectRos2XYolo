@@ -220,6 +220,10 @@ def run(
                             annotator.box_label(xyxy, label, color=colors(c, True))
                         if save_crop:
                             save_one_box(xyxy, imc, file=save_dir / 'crops' / names[c] / f'{p.stem}.jpg', BGR=True)
+                else:
+                    msg.data = "NULL"
+                    node.get_logger().info('Publishing: "%s"' % msg.data)
+                    publisher.publish(msg)
 
                 # Stream results
                 im0 = annotator.result()
@@ -249,15 +253,6 @@ def run(
                             save_path = str(Path(save_path).with_suffix('.mp4'))  # force *.mp4 suffix on results videos
                             vid_writer[i] = cv2.VideoWriter(save_path, cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h))
                         vid_writer[i].write(im0)
-    
-
-                
-                else:
-                    msg.data = "NULL"
-                    node.get_logger().info('Publishing: "%s"' % msg.data)
-                    publisher.publish(msg)
-
-                # rate.sleep()
 
         if cv2.waitKey(1) == ord('q'):
             node.destroy_node()

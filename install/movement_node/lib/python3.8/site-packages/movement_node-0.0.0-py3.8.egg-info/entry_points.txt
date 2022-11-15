@@ -1,0 +1,3 @@
+[console_scripts]
+movement = movement_node.movement_node:main
+

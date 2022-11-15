@@ -1,1 +1,1 @@
-int64 num
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/custom_message/msg/Num.msg

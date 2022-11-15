@@ -1,0 +1,4 @@
+source;share/pesan/environment/ament_prefix_path.sh
+source;share/pesan/environment/library_path.sh
+source;share/pesan/environment/path.sh
+source;share/pesan/environment/pythonpath.sh

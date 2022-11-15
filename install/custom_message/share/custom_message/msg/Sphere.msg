@@ -1,2 +1,1 @@
-geometry_msgs/Point center
-float64 radius
+/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/custom_message/msg/Sphere.msg

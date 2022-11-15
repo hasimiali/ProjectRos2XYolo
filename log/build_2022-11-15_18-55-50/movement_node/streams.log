@@ -1,0 +1,21 @@
+[1.502s] Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/movement_node': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/movement_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/install.log --single-version-externally-managed
+[3.575s] running egg_info
+[3.580s] writing ../../build/movement_node/movement_node.egg-info/PKG-INFO
+[3.582s] writing dependency_links to ../../build/movement_node/movement_node.egg-info/dependency_links.txt
+[3.584s] writing entry points to ../../build/movement_node/movement_node.egg-info/entry_points.txt
+[3.586s] writing requirements to ../../build/movement_node/movement_node.egg-info/requires.txt
+[3.587s] writing top-level names to ../../build/movement_node/movement_node.egg-info/top_level.txt
+[3.873s] reading manifest file '../../build/movement_node/movement_node.egg-info/SOURCES.txt'
+[3.881s] writing manifest file '../../build/movement_node/movement_node.egg-info/SOURCES.txt'
+[3.882s] running build
+[3.883s] running build_py
+[3.885s] running install
+[3.891s] running install_lib
+[3.902s] running install_data
+[3.906s] running install_egg_info
+[3.918s] removing '/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages/movement_node-0.0.0-py3.8.egg-info' (and everything under it)
+[3.921s] Copying ../../build/movement_node/movement_node.egg-info to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages/movement_node-0.0.0-py3.8.egg-info
+[3.931s] running install_scripts
+[4.072s] Installing movement script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/movement_node
+[4.074s] writing list of installed files to '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/install.log'
+[4.211s] Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/movement_node' returned '0': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/movement_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/movement_node/install.log --single-version-externally-managed

@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000369] (-) JobUnselected: {'identifier': 'custom_message'}
+[0.000404] (-) JobUnselected: {'identifier': 'cv_package'}
+[0.000423] (-) JobUnselected: {'identifier': 'movement_package'}
+[0.000440] (-) JobUnselected: {'identifier': 'pesan'}
+[0.000454] (-) JobUnselected: {'identifier': 'test_custom_msg'}
+[0.000887] (-) EventReactorShutdown: {}

@@ -1,8 +1,8 @@
-# Install script for directory: /home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/build/custom_message/custom_message__py
+# Install script for directory: /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/custom_message__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cimi/Documents/Workspace/belajar_ros2/ProjectRos2XYolo/install/custom_message")
+  set(CMAKE_INSTALL_PREFIX "/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/custom_message")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

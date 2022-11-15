@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="cv_node" exec="cv" name="cv"/>
+  <node pkg="master_node" exec="master" name="master"/>
+  <node pkg="movement_node" exec="movement" name="movement"/>
+</launch>

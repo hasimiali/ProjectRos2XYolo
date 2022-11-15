@@ -1,0 +1,25 @@
+[1.156s] Invoking command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/master_node': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/install.log --single-version-externally-managed
+[1.469s] running egg_info
+[1.470s] writing ../../build/master_node/master_node.egg-info/PKG-INFO
+[1.470s] writing dependency_links to ../../build/master_node/master_node.egg-info/dependency_links.txt
+[1.471s] writing entry points to ../../build/master_node/master_node.egg-info/entry_points.txt
+[1.471s] writing requirements to ../../build/master_node/master_node.egg-info/requires.txt
+[1.471s] writing top-level names to ../../build/master_node/master_node.egg-info/top_level.txt
+[1.529s] reading manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'
+[1.531s] writing manifest file '../../build/master_node/master_node.egg-info/SOURCES.txt'
+[1.533s] running build
+[1.534s] running build_py
+[1.536s] copying master_node/master_node.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build/lib/master_node
+[1.537s] running install
+[1.543s] running install_lib
+[1.550s] copying /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build/lib/master_node/master_node.py -> /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node
+[1.554s] byte-compiling /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node/master_node.py to master_node.cpython-38.pyc
+[1.563s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (master_node.py, line 31)
+[1.565s] running install_data
+[1.566s] running install_egg_info
+[1.579s] removing '/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node-0.0.0-py3.8.egg-info' (and everything under it)
+[1.582s] Copying ../../build/master_node/master_node.egg-info to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node-0.0.0-py3.8.egg-info
+[1.590s] running install_scripts
+[1.765s] Installing master script to /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/master_node
+[1.769s] writing list of installed files to '/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/install.log'
+[1.972s] Invoked command in '/home/cimi/Documents/Workspace/ProjectRos2XYolo/src/master_node' returned '0': PYTHONPATH=/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/pesan/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/test_custom_msg/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/movement_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/cv_package/lib/python3.8/site-packages:/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/custom_message/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/master_node build --build-base /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/build install --prefix /home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node --record /home/cimi/Documents/Workspace/ProjectRos2XYolo/build/master_node/install.log --single-version-externally-managed

@@ -1,0 +1,5 @@
+  File "/home/cimi/Documents/Workspace/ProjectRos2XYolo/install/master_node/lib/python3.8/site-packages/master_node/master_node.py", line 31
+    while msg2.mission = NULL:
+                       ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,4 @@
+source;share/pesan/local_setup.bash
+source;share/pesan/local_setup.dsv
+source;share/pesan/local_setup.sh
+source;share/pesan/local_setup.zsh

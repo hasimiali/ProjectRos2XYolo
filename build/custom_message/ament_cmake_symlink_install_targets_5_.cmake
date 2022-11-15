@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cimi/Documents/Workspace/ProjectRos2XYolo/build/custom_message/rosidl_generator_py/custom_message/libcustom_message__python.so" "TARGETS" "custom_message__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
